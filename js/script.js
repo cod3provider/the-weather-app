@@ -1,39 +1,3 @@
-// const cityInputEl = document.querySelector('#city-input');
-// const skyEl = document.querySelector('.sky');
-// const temperatureEl = document.querySelector('.temp');
-// const windEl = document.querySelector('.wind');
-// const cityOutputEl = document.querySelector('.city-output');
-// const buttonWeatherEl = document.querySelector('.weather-pull');
-//
-// apiKey = 'b9650586ad76890d40ec8480cbcca50f';
-//
-//
-// // Convert Kelvin to Celsius (1 Kelvin is equal -272.15 Celsius)
-// function convertTemperature(val) {
-// 	return (val - 273).toFixed(2);
-// }
-//
-// buttonWeatherEl.addEventListener('click', getWeather);
-//
-// function getWeather () {
-// 	fetch('https://api.openweathermap.org/data/2.5/weather?q='+cityInputEl.value+'&appid='+apiKey)
-// 	.then(res => res.json())
-// 		.then(data => {
-// 			let nameval = data['name']
-// 			let descrip = data['weather']['0']['description']
-// 			let tempature = data['main']['temp']
-// 			let wndspd = data['wind']['speed']
-//
-// 			cityOutputEl.innerHTML = `Weather of <span>${nameval}</span>`
-// 			temperatureEl.innerHTML = `Temperature: <span>${convertTemperature(tempature)} C</span>`
-// 			skyEl.innerHTML = `Sky Conditions: <span>${descrip}</span>`
-// 			windEl.innerHTML = `Wind speed: <span>${wndspd} km/h</span>`
-// 		})
-//
-// 		.catch(err => alert('You entered wrong city name. Try again.'));
-// }
-
-
 const cityInputEl = document.querySelector('#city-input');
 const checkWeatherBtn = document.querySelector('.weather-button');
 const cityOutputEl = document.querySelector('.city-output');
