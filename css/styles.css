@@ -26,7 +26,7 @@ body {
     color: rgba(20, 121, 152, 0.83);
 }
 
-.text-color {
+.text-position {
     display: flex;
     justify-content: center;
     align-items: center;
